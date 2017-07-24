@@ -15,6 +15,8 @@
 
 */
 
+/* -----DEFAULT MOBILE STYLES----- */
+
 body{
     font-family: Palatino, Times, serif;
     background-color: #ddffdd;
@@ -61,6 +63,10 @@ header{
     border-radius: 5px;
 }
 
+#logo {
+  text-align: center;
+}
+
 #main_nav{
     text-align: center;
 }
@@ -79,8 +85,30 @@ header{
 
 #main_content {
   background: #ddffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  /*margin-bottom: 10px;*/
 }
 
 #sidebar_content div{
   background: #ffffdd;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 0;
 }
+
+#site_footer {
+  background: #ddddff;
+  text-align: center;
+  padding: 20px;
+}
+
+#site_footer a {
+  padding: 10px;
+}
+
+/* ------TABLET STYLES----- */
+
+
+
+/* -------DESKTOP STYLES----- */
